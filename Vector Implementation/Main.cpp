@@ -4,6 +4,8 @@
 
 	Description:
 	A custom implementation of C++'s STL vector.
+	This implementation of Vector follows Bjarne Stroustrup's book,
+	Programming Principles and Practice Using C++
 */
 
 #include <iostream>
@@ -12,9 +14,6 @@
 
 int main()
 {
-	Vector v(10);
-	int x = v[2];
-	v[3] = x;
 
 	return 0;
 }
