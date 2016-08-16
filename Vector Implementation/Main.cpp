@@ -1,6 +1,6 @@
 /*
 	Author: Miguel Deniz
-	Date:	8/9/2016
+	Date:	8/16/2016
 
 	Description:
 	A custom implementation of C++'s STL vector.
@@ -11,6 +11,7 @@
 #include <iostream>
 #include <string>
 #include "Vector.h"
+
 
 int main()
 {
