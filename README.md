@@ -1,5 +1,5 @@
 # Custom Vector Implementation
-A custom vector implementation, similar to the C++ STL vector.
+A custom vector implementation, similar to the C++ STL vector. Uses Google Tests for testing.
 
 <h2>Matches C++ STL vector</h2>
 - Works with custom built types
@@ -40,12 +40,10 @@ Google Tests was used for unit testing in the project.
 - void resize(size_t, T = T());
 - size_t size() const;
 - size_t max_size() const;
-
 <h3>Modifiers</h3>
 - void clear();
-void push_back(constT&);
-void pop_back();
-
+- void push_back(constT&);
+- void pop_back();
 <h3>Element Access</h3>
 - T& at(size_t n);
 - const T& at(size_t n) const;
